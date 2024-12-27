@@ -1,0 +1,31 @@
+.contact {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background color */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  .contact h2 {
+    font-size: 28px;
+    color: #5d4037; /* Tea-inspired brown */
+    margin-bottom: 20px;
+  }
+  
+  .contact p {
+    font-size: 18px;
+    color: #333; /* Neutral text color */
+    margin: 10px 0;
+    line-height: 1.5; /* Increase line spacing for readability */
+  }
+  
+  .contact p a {
+    text-decoration: none;
+    color: #5d4037;
+    font-weight: bold;
+  }
+  
+  .contact p a:hover {
+    text-decoration: underline;
+  }
+  

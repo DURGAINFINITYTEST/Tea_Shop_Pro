@@ -1,0 +1,105 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #5d4037;
+  color: white;
+  padding: 20px 30px;
+}
+
+#p6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 50px;
+  background-color: white;
+  color: #5d4037;
+  border-radius: 25px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.menu {
+  padding: 20px;
+}
+
+.menu-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.menu-item {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 200px;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+button {
+  background-color: #5d4037;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+button:hover:not(:disabled) {
+  background-color: #4b322d;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #5d4037;
+  color: white;
+  padding: 30px 30px;
+}
+.logo {
+  height: 100px; /* Adjust the logo size */
+}
+
+
+#p6 {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100px; /* Circle width */
+height: 100px; /* Circle height */
+background-color: white; /* Background color of the circle */
+color: #5d4037; /* Text color */
+border-radius: 50%; /* Makes it a circle */
+font-size: 20px; /* Text size */
+font-weight: bold; /* Makes the text bold */
+text-align: center;
+cursor: pointer;
+}
+

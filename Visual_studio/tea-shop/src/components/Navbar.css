@@ -1,0 +1,29 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #5d4037;
+    color: white;
+    padding: 30px 30px;
+  }
+  .logo {
+    height: 100px; /* Adjust the logo size */
+  }
+  
+
+ #p6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px; /* Circle width */
+  height: 100px; /* Circle height */
+  background-color: white; /* Background color of the circle */
+  color: #5d4037; /* Text color */
+  border-radius: 50%; /* Makes it a circle */
+  font-size: 20px; /* Text size */
+  font-weight: bold; /* Makes the text bold */
+  text-align: center;
+  cursor: pointer;
+}
+  
+  
